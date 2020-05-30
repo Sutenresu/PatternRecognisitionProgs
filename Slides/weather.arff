@@ -1,0 +1,26 @@
+
+@relation weather
+
+@attribute tempo {sol, nublado, chuva}
+@attribute temperatura real
+@attribute umidade real
+@attribute vento {SIM, NAO}
+@attribute jogo {sim, nao}
+
+@data
+sol,85,85,NAO,nao
+sol,80,90,SIM,nao
+nublado,83,86,NAO,sim
+chuva,70,96,NAO,sim
+chuva,68,80,NAO,sim
+chuva,65,70,SIM,nao
+nublado,64,65,SIM,sim
+sol,72,95,NAO,nao
+sol,69,70,NAO,sim
+chuva,75,80,NAO,sim
+sol,75,70,SIM,sim
+nublado,72,90,SIM,sim
+nublado,81,75,NAO,sim
+chuva,71,91,SIM,nao
+
+% linhas começando com % são comentários
